@@ -1,6 +1,6 @@
 # Car Rental API
 
-Simple **Car Rental REST API** built with **Golang (Gin)** and **PostgreSQL**.
+Simple **Car Rental REST API** built with **Golang** and **PostgreSQL**.
 
 This project provides CRUD operations for:
 
@@ -23,14 +23,13 @@ This project provides CRUD operations for:
 
 Entities used in this system:
 
-```
-
-```
+![ERD](https://github.com/primamaulana/Car-Rental-API/blob/main/erd/erd.png)
 
 ---
 
 # Database Setup
 
+Import **car_rental.sql** file from **database** folder or<br><br>
 Create database:
 
 ```sql
@@ -253,22 +252,6 @@ POST /cars
 
 ```
 POST /bookings
-```
-
----
-
-# Testing API
-
-API can be tested using:
-
-- Postman
-- Insomnia
-- Curl
-
-Example:
-
-```
-GET http://localhost:8080/customers
 ```
 
 ---
