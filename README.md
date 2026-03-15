@@ -19,68 +19,13 @@ This project provides CRUD operations for:
 
 ---
 
-# Project Structure
-
-```
-car-rental-api
-│
-├── main.go
-├── db.go
-├── models.go
-├── customer_handler.go
-├── car_handler.go
-├── booking_handler.go
-│
-├── docs
-│   └── erd.png
-│
-└── README.md
-```
-
----
-
 # ERD (Entity Relationship Diagram)
 
 Entities used in this system:
 
 ```
-Customers
----------
-id (PK)
-name
-nik
-phone_number
-
-Cars
----------
-id (PK)
-name
-stock
-daily_rent
-
-Bookings
----------
-id (PK)
-customer_id (FK)
-car_id (FK)
-start_rent
-end_rent
-total_cost
-finished
-```
-
-Relationship:
 
 ```
-Customers 1 --- N Bookings
-Cars      1 --- N Bookings
-```
-
-Explanation:
-
-- One **customer** can create many bookings
-- One **car** can appear in many bookings
-- Booking connects **customer and car**
 
 ---
 
