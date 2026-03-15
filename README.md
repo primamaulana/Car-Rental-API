@@ -30,7 +30,7 @@ Entities used in this system:
 # Database Setup
 
 Import **car_rental.sql** file from **database** folder or<br><br>
-Create database:
+Create database manually:
 
 ```sql
 CREATE DATABASE car_rental;
@@ -255,7 +255,15 @@ POST /bookings
 ```
 
 ---
+# Postman Collection
 
+You can test all API endpoints using the Postman collection provided.
+
+Import the file below into Postman:
+
+**postman/car-rental-api.postman_collection.json**
+
+---
 # Author
 
 Prima Maulana Hanan
